@@ -63,7 +63,7 @@ class StupidPlayer < Player
 
 class MethodicalPlayer < Player
   def roll_again?
-      super && @turn_score > 20
+      super && @turn_score < 4
     end
   end
 
